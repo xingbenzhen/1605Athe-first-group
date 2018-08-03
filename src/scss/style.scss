@@ -8,14 +8,6 @@
     font-size: pxTorem(18px)
 }
 
-header {
-    width: 100%;
-    height: pxTorem(50px);
-    background: red;
-    text-align: center;
-    line-height: pxTorem(50px);
-}
-
 section {
     flex: 1;
 }
@@ -31,5 +23,8 @@ footer {
         .iconfont {
             font-size: pxTorem(18px)
         }
+    }
+    .active {
+        color: gold;
     }
 }

@@ -191,14 +191,6 @@ html {
   font-size: 0.48rem;
 }
 
-header {
-  width: 100%;
-  height: 1.33333rem;
-  background: red;
-  text-align: center;
-  line-height: 1.33333rem;
-}
-
 section {
   flex: 1;
 }
@@ -217,4 +209,8 @@ footer dl {
 
 footer dl .iconfont {
   font-size: 0.48rem;
+}
+
+footer .active {
+  color: gold;
 }
