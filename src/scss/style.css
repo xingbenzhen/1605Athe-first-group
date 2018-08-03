@@ -224,3 +224,7 @@ footer dl {
 footer dl .iconfont {
   font-size: 0.48rem;
 }
+
+footer .active {
+  color: gold;
+}

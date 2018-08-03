@@ -20,7 +20,7 @@
         </header>
         <section>中间</section>
         <footer>
-            <dl>
+            <dl class="active">
                 <dt class="iconfont icon-shouye"></dt>
                 <dd>首页</dd>
             </dl>
@@ -39,5 +39,11 @@
         </footer>
     </div>
 </body>
+<script src="./js/jquery.min.js"></script>
+<script>
+    $("footer").on("click", "dl", function() {
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+</script>
 
 </html>
