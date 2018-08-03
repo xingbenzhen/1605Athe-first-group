@@ -11,9 +11,14 @@
 header {
     width: 100%;
     height: pxTorem(50px);
-    background: red;
-    text-align: center;
+    display: flex;
     line-height: pxTorem(50px);
+    padding: 0 20px;
+    background: #ccf;
+    .iconfont {
+        font-size: pxTorem(20px);
+        padding: 0 20px;
+    }
 }
 
 section {
